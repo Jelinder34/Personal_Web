@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using System;
+using System.Web.Mvc;
 
 namespace JohnWeb.WebUI.Controllers
 {
@@ -14,6 +15,11 @@ namespace JohnWeb.WebUI.Controllers
         {
             Response.StatusCode = id;
             return View();
+        }
+
+        public ActionResult Force()
+        {
+            throw new Exception("Error not working");
         }
     }
 }
