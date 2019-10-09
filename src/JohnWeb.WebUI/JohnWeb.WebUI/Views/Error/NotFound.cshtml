@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "My Error Page";
+}
+
+<div class="caption2" style=" background-size: cover; background-color: white; padding:20px; color:red">
+    @Response.StatusCode
+    <h3>
+        My Own Created Error Page:
+    </h3>
+    <h4>
+        Sorry, The Page, You are Looking for File is not found Or Controller Name / Controller Action Method Name Not There.
+    </h4>
+    <h6>@Html.ActionLink("Home", "Index", "Home")</h6>
+    <br />
+    <br />
+</div>

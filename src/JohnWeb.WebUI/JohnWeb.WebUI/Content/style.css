@@ -1,0 +1,205 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+    /* Location of the image */
+    background-image: url(/Images/computers.jpg);
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based
+     on the container's size */
+    background-size: cover;
+    /* Set a background color that will be displayed
+     while the background image is loading */
+    background-color: #464646;
+}
+
+
+@keyframes rotateRight {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Navigation */
+
+.custom-navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.4)!important;
+}
+
+.navbar-brand img {
+    height: 2rem;
+}
+
+.navbar-nav li {
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #1ebba3;
+}
+
+.noflex {
+    display:block!important;
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+.caption2 {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 25%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+.caption3 {
+    top: 50%!important;
+}
+
+.caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    
+}
+
+.caption h3 {
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+    background-color: #1ebba3;
+    color: white;
+}
+
+.text-lowered {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.6)!important;
+    padding: 25px;
+}
+
+
+h3.heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #1ebba3;
+    margin: 0 auto 2rem;
+}
+.heading-underline2 {
+    width: 3rem;
+    height: .2rem;
+    background-color: #1ebba3;
+    margin: -10px auto;
+}
+.heading-underline3 {
+    width: 3rem;
+    height: .2rem;
+    background-color: #1ebba3;
+    margin: 0px auto 5rem;
+}
+.heading-underlinelong {
+    width: 10rem;
+    height: .2rem;
+    background-color: #1ebba3;
+    margin: -10px auto;
+}
+.heading-underlinelong1 {
+    width: 10rem;
+    height: .2rem;
+    background-color: #1ebba3;
+    margin: 0px auto;
+}
+
+.feature svg.svg-inline--fa{
+    color: #1ebba3;
+}
+
+.feature h3 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+}
+
+.fixed {
+    background-image: url('/Images/WEdding.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
+.fixed-background h3 {
+    margin-bottom: 2rem;
+}
+
+.fixed-background p {
+    margin-top: 1.5rem;
+}
+
+.light-text {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.small-img {
+    height: 15rem;
+    border-radius: 50%;
+}
+
+.container-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-custom {
+    background-color: #1ebba3;
+}
