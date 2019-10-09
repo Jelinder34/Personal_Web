@@ -41,6 +41,9 @@ body {
 .navbar-brand img {
     height: 2rem;
 }
+.error-template img {
+    height: 15rem;
+}
 
 .navbar-nav li {
     padding-right: .7rem;
@@ -69,6 +72,17 @@ body {
     color: white;
     text-transform: uppercase;
 }
+
+.captionTop {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+
 .caption2 {
     width: 100%;
     max-width: 100%;
@@ -88,6 +102,12 @@ body {
     letter-spacing: .3rem;
     text-shadow: .1rem .1rem .8rem black;
     
+}
+.captionTop h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
 }
 
 .caption h3 {
@@ -202,4 +222,48 @@ h3.heading {
 }
 .btn-custom {
     background-color: #1ebba3;
+}
+
+.customFontshrink {
+    font-size: 3.5vw!important;
+}
+.customFont {
+    font-size: 3vw !important;
+}
+
+.pWidth {
+    width: 400px!important;
+}
+
+.pFontSize {
+    font-size: 4vw!important;
+}
+
+.padding2R {
+    padding-top: 2rem;
+}
+
+.padding2X {
+    padding-top: 2px;
+}
+
+h6 {
+    color: #1ebba3;
+}
+
+.error-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.error-actions {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.error-page {
+    background-size: cover !important;
+    background-color: gray !important;
+    background-position: center center!important;
+    background-attachment: fixed!important;
 }
