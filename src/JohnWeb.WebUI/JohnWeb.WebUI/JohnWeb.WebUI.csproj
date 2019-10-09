@@ -112,7 +112,9 @@
     <Content Include="Content\fixed.css" />
     <Content Include="Images\computers_1_640x320.jpg" />
     <Content Include="Images\dnd.jpg" />
+    <Content Include="Images\giphy.gif" />
     <Content Include="Images\JohnPic.jpg" />
+    <Content Include="Images\pacman.gif" />
     <Content Include="Images\WEdding.jpg" />
     <Content Include="Scripts\gAnalytics.js" />
     <Content Include="Scripts\jstyle.js" />
@@ -144,6 +146,7 @@
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="Document\John Resume.docx" />
+    <Content Include="Images\giphy.webp" />
     <None Include="Properties\PublishProfiles\jelinder - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -197,7 +200,6 @@
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
     <Content Include="Views\Error\NotFound.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Gtag.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

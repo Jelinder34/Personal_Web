@@ -1,17 +1,40 @@
 ﻿
 @{
     ViewBag.Title = "My Error Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div class="caption2" style=" background-size: cover; background-color: white; padding:20px; color:red">
-    @Response.StatusCode
-    <h3>
-        My Own Created Error Page:
-    </h3>
-    <h4>
-        Sorry, The Page, You are Looking for File is not found Or Controller Name / Controller Action Method Name Not There.
-    </h4>
-    <h6>@Html.ActionLink("Home", "Index", "Home")</h6>
-    <br />
-    <br />
+<div class="landing fixed">
+    <div class="home-wrap error-page">
+
+    </div>
+</div>
+
+<div class="captionTop">
+    <div class="row">
+        <div class="col-md-2 offset-4">
+            <div class="error-template">
+                <h1>Oops!</h1>
+                @Response.StatusCode
+                @Response.StatusDescription
+                <div class="error-actions">
+                    <a class="btn btn-outline-light btn-lg" href="~/Home/Index">Return home</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="error-template">
+                <img src="~/Images/pacman.gif" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 offset-5">
+            <h5 class="error-actions">Or... Try playing this game!</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 offset-4">
+            <iframe src="https://www.retrogames.cc/embed/9403-pac-man-galaxian-hardware-set-1-bootleg.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>        </div>
+    </div>
 </div>
