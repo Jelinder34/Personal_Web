@@ -92,9 +92,6 @@ body {
     color: white;
     text-transform: uppercase;
 }
-.caption3 {
-    top: 50%!important;
-}
 
 .caption h1 {
     font-size: 3.8rem;
@@ -125,32 +122,11 @@ body {
     color: white;
 }
 
-.text-lowered {
-    width: 100%;
-    max-width: 100%;
-    position: absolute;
-    top: 38%;
-    z-index: 1;
-}
-
 .jumbotron {
     background-color: rgba(0, 0, 0, 0.6)!important;
     padding: 25px;
 }
 
-
-h3.heading {
-    font-size: 1.9rem;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.heading-underline {
-    width: 3rem;
-    height: .2rem;
-    background-color: #1ebba3;
-    margin: 0 auto 2rem;
-}
 .heading-underline2 {
     width: 3rem;
     height: .2rem;
@@ -169,28 +145,9 @@ h3.heading {
     background-color: #1ebba3;
     margin: -10px auto;
 }
-.heading-underlinelong1 {
-    width: 10rem;
-    height: .2rem;
-    background-color: #1ebba3;
-    margin: 0px auto;
-}
 
 .feature svg.svg-inline--fa{
     color: #1ebba3;
-}
-
-.feature h3 {
-    font-size: 1.3rem;
-    text-transform: uppercase;
-    padding-bottom: .4rem;
-}
-
-.fixed {
-    background-image: url('/Images/WEdding.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: -1;
 }
 
 .dark {
@@ -220,6 +177,7 @@ h3.heading {
     justify-content: center;
     align-items: center;
 }
+
 .btn-custom {
     background-color: #1ebba3;
 }
@@ -227,6 +185,7 @@ h3.heading {
 .customFontshrink {
     font-size: 3.5vw!important;
 }
+
 .customFont {
     font-size: 3vw !important;
 }
@@ -266,4 +225,14 @@ h6 {
     background-color: gray !important;
     background-position: center center!important;
     background-attachment: fixed!important;
+}
+
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.resize-object {
+    font-size: 1vw!important;
 }
