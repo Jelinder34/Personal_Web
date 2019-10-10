@@ -21,14 +21,11 @@ body {
     background-color: #464646;
 }
 
-
 @keyframes rotateRight {
     100% {
         transform: rotate(360deg);
     }
 }
-
-/* Navigation */
 
 .custom-navbar {
     text-transform: uppercase;
@@ -41,6 +38,7 @@ body {
 .navbar-brand img {
     height: 2rem;
 }
+
 .error-template img {
     height: 15rem;
 }
@@ -100,6 +98,7 @@ body {
     text-shadow: .1rem .1rem .8rem black;
     
 }
+
 .captionTop h1 {
     font-size: 3.8rem;
     font-weight: 700;
@@ -133,12 +132,14 @@ body {
     background-color: #1ebba3;
     margin: -10px auto;
 }
+
 .heading-underline3 {
     width: 3rem;
     height: .2rem;
     background-color: #1ebba3;
     margin: 0px auto 5rem;
 }
+
 .heading-underlinelong {
     width: 10rem;
     height: .2rem;
@@ -225,14 +226,4 @@ h6 {
     background-color: gray !important;
     background-position: center center!important;
     background-attachment: fixed!important;
-}
-
-.responsive {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-}
-
-.resize-object {
-    font-size: 1vw!important;
 }
