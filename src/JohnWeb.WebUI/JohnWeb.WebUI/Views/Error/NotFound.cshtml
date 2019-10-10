@@ -10,11 +10,11 @@
     </div>
 </div>
 
-<div class="captionTop">
+<div class="captionTop d-none d-xl-inline-block">
     <div class="row">
         <div class="col-md-2 offset-4">
             <div class="error-template">
-                <h1>Oops!</h1>
+                <h1> Oops!</h1>
                 @Response.StatusCode
                 @Response.StatusDescription
                 <div class="error-actions">
@@ -29,12 +29,35 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-12 offset-5">
-            <h5 class="error-actions">Or... Try playing this game!</h5>
+        <div class="col-md-12 text-center">
+            <h5 class="error-actions">Or... Try playing this game! (Shift to insert coin)</h5>
         </div>
     </div>
     <div class="row">
         <div class="col-md-12 offset-4">
-            <iframe src="https://www.retrogames.cc/embed/9403-pac-man-galaxian-hardware-set-1-bootleg.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>        </div>
+            <iframe src="https://www.retrogames.cc/embed/9403-pac-man-galaxian-hardware-set-1-bootleg.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>
+        </div>
+    </div>
+</div>
+
+<div class="captionTop d-block d-xl-none">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="error-template">
+                <h1> Oops!</h1>
+                @Response.StatusCode
+                @Response.StatusDescription
+                <div class="error-actions">
+                    <a class="btn btn-outline-light btn-lg" href="~/Home/Index">Return home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="error-template">
+                <img src="~/Images/pacman.gif" />
+            </div>
+        </div>
     </div>
 </div>
