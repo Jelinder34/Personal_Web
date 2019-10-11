@@ -185,6 +185,7 @@ body {
 
 .btn-custom {
     background-color: #1ebba3;
+    color: white;
 }
 
 .customFontshrink {
@@ -233,8 +234,5 @@ h6 {
 }
 
 .img-size {
-    height: 3rem;
-}
-.img-size1 {
     height: 2rem;
 }
