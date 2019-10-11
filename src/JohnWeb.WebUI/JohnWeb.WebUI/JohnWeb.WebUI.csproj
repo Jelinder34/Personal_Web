@@ -116,11 +116,15 @@
     <Content Include="Content\fontawesome\font-awesome.css" />
     <Content Include="Content\fontawesome\font-awesome.min.css" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Images\174857.png" />
     <Content Include="Images\computers_1_640x320.jpg" />
     <Content Include="Images\dnd.jpg" />
+    <Content Include="Images\facebook-icon-preview-1.png" />
     <Content Include="Images\giphy.gif" />
+    <Content Include="Images\Github.png" />
     <Content Include="Images\JohnPic.jpg" />
     <Content Include="Images\pacman.gif" />
+    <Content Include="Images\Twitter_Sq-512.png" />
     <Content Include="Images\WEdding.jpg" />
     <Content Include="Scripts\gAnalytics.js" />
     <Content Include="Scripts\jstyle.js" />
