@@ -20,6 +20,8 @@ namespace JohnWeb.WebUI.App_Start
                 .Include("~/Content/bootstrap.min.css"));
             bundles.Add(new StyleBundle("~/bundles/customcss")
                 .Include("~/Content/*.css"));
+            bundles.Add(new StyleBundle("~/bundles/fontawesome")
+                .Include("~/Content/css/*.css"));
         }
     }
 }
