@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @Styles.Render("~/bundles/css/desktop")
     @Styles.Render("~/bundles/customcss")
-    @Styles.Render("~/bundles/fontawesome")
-    @Styles.Render("~/bundles/fonticons")
-    <title>@ViewBag.Title</title>
-    @{Html.RenderPartial("_Gtag"); }
+    @Styles.Render("~/Content/fontawesome")
+    @{ Html.RenderPartial("_Gtag"); }
 </head>
 <body data-target="#navbarResponsive">
     @{
