@@ -115,7 +115,7 @@
     <Content Include="Content\fixed.css" />
     <Content Include="Content\fontawesome\font-awesome.css" />
     <Content Include="Content\fontawesome\font-awesome.min.css" />
-    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Images\computers_1_640x320.jpg" />
     <Content Include="Images\dnd.jpg" />
     <Content Include="Images\giphy.gif" />
@@ -153,10 +153,10 @@
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="Document\John Resume.docx" />
     <Content Include="Images\giphy.webp" />
-    <Content Include="fonts\FontAwesome.otf" />
-    <Content Include="fonts\fontawesome-webfont.woff" />
-    <Content Include="fonts\fontawesome-webfont.ttf" />
-    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\fonts\FontAwesome.otf" />
+    <Content Include="Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\fonts\fontawesome-webfont.eot" />
     <None Include="Properties\PublishProfiles\jelinder - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
