@@ -147,6 +147,10 @@ body {
     margin: -10px auto;
 }
 
+.custom-color {
+    color: #1ebba3!important;
+}
+
 .feature svg.svg-inline--fa{
     color: #1ebba3;
 }
