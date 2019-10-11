@@ -23,6 +23,8 @@ namespace JohnWeb.WebUI.App_Start
                 .Include("~/Content/style.css")
                 .Include("~/Content/fixed.css"));
 
+            BundleTable.EnableOptimizations = false;
+
         }
     }
 }
