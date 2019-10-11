@@ -5,20 +5,23 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @Styles.Render("~/bundles/css/desktop")
-    @Styles.Render("~/bundles/customcss")
     @Styles.Render("~/Content/fontawesome")
+    @Styles.Render("~/bundles/customcss")
+
     @{ Html.RenderPartial("_Gtag"); }
 </head>
 <body data-target="#navbarResponsive">
     @{
+
         Html.RenderPartial("_Navbar");
-    }    
+    }
     @RenderBody()
 </body>
 </html>
 @{
     Html.RenderPartial("_Footer");
 }
-@Scripts.Render("~/bundles/scripts/desktop")
+
 @Scripts.Render("~/bundles/scriptscustom")
+@Scripts.Render("~/bundles/scripts/desktop")
 @Scripts.Render("~/bundles/analytics")
