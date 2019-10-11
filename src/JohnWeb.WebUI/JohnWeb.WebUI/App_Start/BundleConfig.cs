@@ -21,12 +21,7 @@ namespace JohnWeb.WebUI.App_Start
             bundles.Add(new StyleBundle("~/bundles/customcss")
                 .Include("~/Content/*.css"));
             bundles.Add(new StyleBundle("~/bundles/fontawesome")
-                .Include("~/Content/css/*.css")
-                .Include("~/Content/webfonts/*.eot")
-                .Include("~/Content/webfonts/*.svg")
-                .Include("~/Content/webfonts/*ttf")
-                .Include("~/Content/webfonts/*.woff")
-                .Include("~/Content/webfonts/*.woff2"));
+                .Include("~/Content/css/*.css"));
         }
     }
 }
