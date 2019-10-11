@@ -231,3 +231,10 @@ h6 {
     background-position: center center!important;
     background-attachment: fixed!important;
 }
+
+.img-size {
+    height: 3rem;
+}
+.img-size1 {
+    height: 2rem;
+}
