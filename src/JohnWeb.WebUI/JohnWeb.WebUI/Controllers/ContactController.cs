@@ -7,7 +7,7 @@ namespace JohnWeb.WebUI.Controllers
         // GET: Contact
         public ActionResult ContactMe()
         {
-            return View("ContactMe");
+            return View();
         }
     }
 }

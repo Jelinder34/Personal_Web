@@ -7,7 +7,6 @@ namespace JohnWeb.WebUI.App_Start
         public static void RegisterBundles(BundleCollection bundles)
         {
             var jqueryCdnPath = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js";
-            var cssCdnPath = "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css";
        
             bundles.Add(new ScriptBundle("~/bundles/scriptscustom", "https://code.jquery.com/jquery-3.4.1.min.js")
                 .Include("~/Scripts/jstyle.js")

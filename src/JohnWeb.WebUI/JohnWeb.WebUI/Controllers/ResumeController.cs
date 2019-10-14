@@ -7,7 +7,7 @@ namespace JohnWeb.WebUI.Controllers
         // GET: Resume
         public ActionResult MyResume()
         {
-            return View("MyResume");
+            return View();
         }
     }
 }
